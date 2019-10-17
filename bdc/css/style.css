@@ -641,7 +641,7 @@ h3 {
 
 .header-area .main-header-area .main-menu ul li a {
     color: #fff;
-    font-size: 12px;
+    font-size: 16px;
     text-transform: capitalize;
     
     font-weight: 600;
@@ -780,7 +780,7 @@ h3 {
 }
 
 .header-area .main-header-area.sticky .main-menu {
-    padding: 0
+    padding: 20px 40px;
 }
 
 .header-area .donate_now {
@@ -4734,7 +4734,7 @@ h1, h2, h3, h4, h5, h6 {
 li {
     list-style-type: none !important;
     text-align: justify;
-    font-size: 11px;
+    font-size: 18px;
 }
 
 li.check:before {

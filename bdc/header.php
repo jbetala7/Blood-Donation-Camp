@@ -44,23 +44,20 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-xl-7 col-lg-7">
+                        <div class="col-xl-8 col-lg-8">
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="navlink" href="index.php">Home</a></li>
-                                        <li><a class="navlink" href="index.php#about">Why Donate?</a></li>
+                                        <li><a class="navlink" href="index.php#about">Why You Should Donate?</a></li>
                                         <li><a class="navlink" href="#">Do's & Dont's</a></li>
                                         <li><a class="navlink" href="#">Who Can Donate?</a></li>
-                                        <li><a class="navlink" href="#">Blood Donated</a></li>
                                         <li><a class="navlink" href="contact.html">FAQ's</a></li>
-                                        <li><a class="navlink" href="#">Desk of The Convenor</a></li>
-                                        <li><a class="navlink" href="#">About Us</a></li>
                                     </ul>
                                 </nav>
                             </div>
                         </div>
-                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                        <div class="col-xl-2 col-lg-2 d-none d-lg-block">
                             <div class="donate_now">
                                 <a href="register.php" class="boxed-btn">Register Now</a>
                             </div>
