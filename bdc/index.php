@@ -219,12 +219,9 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                             <span>Do's</span>
                         </div>
                         <ul>
-                        <li class="check">Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</li><br>
-                        <li class="check">Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</li><br>
-                        <li class="check">Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</li><br>
+                        <li class="check">Eat iron-rich foods starting a week or two before you donate. These include red meat, eggs whole grains, and dark green vegetables like spinach. Get additional vitamin C to help iron absorption.</li><br>
+                        <li class="check">Eat a healthy, low-fat meal four or more hours before you donate.</li><br>
+                        <li class="check">Take plenty of fluids, not only on the day of your donation, but also on the day before and the day after. This will keep you from getting dehydrated.</li><br>
                         </ul>
                     </div>
                 </div>
@@ -352,21 +349,25 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
 				<div class="card">
 					<div class="card-header" id="headingOne">
 						<h2 class="clearfix mb-0">
-							<a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> What is Bootstrap Framework?</a>									
+							<a class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i class="fa fa-chevron-circle-down"></i> What do I get in return for my blood donation?</a>									
 						</h2>
 					</div>
 					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-						<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>
+						<div class="card-body">Blood is donated voluntarily, freely and without payment or reward of any kind.
+While blood is donated as an act of goodwill towards a fellow human being and nothing should be expected in return for giving this gift of life, here at BDC MUJ, you also receive benefits such as discount coupons, white dots, donor card, attendance etc.
+In addition to this, what you get in return is a physical and emotional sense of well-being and the knowledge that you have helped to save someone's life. We all hope that someone will do the same for us if we need a blood transfusion.</div>
 					</div>
 				</div>
 				<div class="card">
 					<div class="card-header" id="headingTwo">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> How to Create Responsive Website with Bootstrap?</a>
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> Is there anything special I need to do before donating?</a>
 						</h2>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-						<div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>
+						<div class="card-body">Eat at your regular meals and drink plenty of fluids before you donate blood. Have a snack at least four hours before you donate, but do not eat too much right before the donation.
+After donating blood, have some tea, coffee or a soft drink to help replace the blood volume (approximately 450 ml) which has been reduced as a result of your donation. Refreshments are provided after the donation.
+Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hours prior to your donation, because aspirin inhibits the function of blood platelets. If you have taken aspirin within this period, your blood platelet component cannot be transfused to a patient.</div>
 					</div>
 				</div>
 				<div class="card">
