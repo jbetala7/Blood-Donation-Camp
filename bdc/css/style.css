@@ -40,7 +40,7 @@
     width: 1.3em; /* same as padding-left set on li */
   }
 
-  li:before {
+  li.ban:before {
     content: "\f05e"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;

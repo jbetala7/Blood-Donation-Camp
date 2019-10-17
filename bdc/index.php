@@ -219,17 +219,17 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         </ul>
                     </div>
                 </div>
-                <div class="offset-xl-1 col-xl-5">
+                <div class="offset-xl-2 col-xl-5">
                     <div class="help_info">
                         <div class="section_title">
                             <span>Don'ts</span>
                         </div>
                         <ul>
-                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                        <li class="ban">Inspires employees and organizations to support causes they care about do this to bring more
                             resources.</li><br>
-                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                        <li class="ban">Inspires employees and organizations to support causes they care about do this to bring more
                             resources.</li><br>
-                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                        <li class="ban">Inspires employees and organizations to support causes they care about do this to bring more
                             resources.</li><br>
                         </ul>
                     </div>
