@@ -28,10 +28,20 @@
  li
  {
     list-style-type: none !important;
+    text-align: justify;
+    font-size: 18px;
  }
 
- .check:before {
+ li.check:before {
     content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em; /* same as padding-left set on li */
+    width: 1.3em; /* same as padding-left set on li */
+  }
+
+  li:before {
+    content: "\f05e"; /* FontAwesome Unicode */
     font-family: FontAwesome;
     display: inline-block;
     margin-left: -1.3em; /* same as padding-left set on li */
