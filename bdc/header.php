@@ -27,6 +27,7 @@ $percentage = ($raised/$target)*100;
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/text.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
@@ -52,11 +53,14 @@ $percentage = ($raised/$target)*100;
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="" href="index.php">home</a></li>
-                                        <li><a href="index.php#about">About</a></li>
-                                        <li><a href="#">causes</a></li>
-                                        <li><a href="#">Do's & Dont's</a></li>
-                                        <li><a href="contact.html">FAQS</a></li>
+                                        <li><a class="navlink" href="index.php">Home</a></li>
+                                        <li><a class="navlink" href="index.php#about">Why Donate?</a></li>
+                                        <li><a class="navlink" href="#">Do's & Dont's</a></li>
+                                        <li><a class="navlink" href="#">Who Can Donate?</a></li>
+                                        <li><a class="navlink" href="#">Blood Donated</a></li>
+                                        <li><a class="navlink" href="contact.html">FAQ's</a></li>
+                                        <li><a class="navlink" href="#">Desk of The Convenor</a></li>
+                                        <li><a class="navlink" href="#">About Us</a></li>
                                     </ul>
                                 </nav>
                             </div>
