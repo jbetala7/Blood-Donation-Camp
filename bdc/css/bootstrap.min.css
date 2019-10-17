@@ -2109,7 +2109,7 @@ pre code {
     opacity: 1
 }
 
-select.form-control:not([size]):not([multiple]) {
+select.form-control {
     height: calc(2.25rem + 2px)
 }
 

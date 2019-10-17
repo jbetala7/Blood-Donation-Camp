@@ -1,4 +1,13 @@
 <?php
+//include 'dbc.php';
+//$sql = "SELECT COUNT(Name) FROM user_info;";
+//$result = mysqli_query($conn , $sql);
+//$row = mysqli_fetch_assoc($result);
+$target = 1000;
+//$raised = $row['COUNT(Name)'];
+$raised = 450;
+$percentage = ($raised/$target)*100;
+
 include 'header.php';
 ?>
 <!-- slider_area_start -->

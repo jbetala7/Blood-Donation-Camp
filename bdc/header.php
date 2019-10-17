@@ -1,8 +1,3 @@
-<?php
-$target = 1000;
-$raised = 450;
-$percentage = ($raised/$target)*100;
-?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
