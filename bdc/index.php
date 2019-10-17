@@ -196,64 +196,45 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
     <div class="help_area gray-bg">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-xl-4">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-60">
+                        <span>We Work For</span>
+                        <h3>
+                            Do's And Don'ts
+                        </h3>
+                    </div>
+                </div>
+                <div class="col-xl-6">
                     <div class="help_info">
                         <div class="section_title">
-                            <span>Help Them</span>
-                            <h3>
-                                They Needs <br>
-                                your Help
-                            </h3>
+                            <span>Do's</span>
                         </div>
-                        <p>Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</p>
-                        <a href="#">See All Causes</a>
+                        <ul class='check'>
+                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</li><br>
+                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</li><br>
+                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</li><br>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-xl-8">
-                    <div class="help_slider_active owl-carousel">
-                        <div class="single_help_wrap">
-                            <div class="thumb">
-                                <img src="img/help/1.png" alt="">
-                            </div>
-                            <div class="help_content">
-                                <h3>Help Yeati to continue her <br>
-                                    Primary Education</h3>
-                                <div class="donate_amount d-flex">
-                                    <div class="single_amount">
-                                        <span>Target :</span>
-                                        <h3>$2783</h3>
-                                    </div>
-                                    <div class="single_amount">
-                                        <span>Raised :</span>
-                                        <h3>$1530</h3>
-                                    </div>
-                                </div>
-                                <a href="#" class="boxed-btn4 ">Donate Now</a>
-                            </div>
+                <div class="col-xl-6">
+                    <div class="help_info">
+                        <div class="section_title">
+                            <span>Don'ts</span>
                         </div>
-                        <div class="single_help_wrap">
-                            <div class="thumb">
-                                <img src="img/help/2.png" alt="">
-                            </div>
-                            <div class="help_content">
-                                <h3>Help Yeati to continue her <br>
-                                    Primary Education</h3>
-                                <div class="donate_amount d-flex">
-                                    <div class="single_amount">
-                                        <span>Target :</span>
-                                        <h3>$2783</h3>
-                                    </div>
-                                    <div class="single_amount">
-                                        <span>Raised :</span>
-                                        <h3>$1530</h3>
-                                    </div>
-                                </div>
-                                <a href="#" class="boxed-btn4 ">Donate Now</a>
-                            </div>
-                        </div>
+                        <ul>
+                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</li><br>
+                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</li><br>
+                        <li>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</li><br>
+                        </ul>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
