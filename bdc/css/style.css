@@ -4799,3 +4799,8 @@ li.ban:before {
     font-size: 8px;
     ;
 }
+
+.logo
+{
+    height: 70px !important;
+}
