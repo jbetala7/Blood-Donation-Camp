@@ -77,29 +77,27 @@ include 'header.php';
     </div>
     <!-- causes_area_end -->
 
-    <!-- about_area_start -->
+    <!-- Why Donate -->
+<section class='Why_Donate'>
     <div class="about_area gray-bg" id="about">
         <div class="container">
         <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-60">
-                        <span>Why Should You Donate?</span>
-                        <h3>
-                        Blood donation is a community responsibility.
-Donating blood is truly the “gift of life” that a healthy individual can a give to a person in need, in case of sickness or injury.
-                        </h3>
+                        <span>Save a Life</span>
+                        <h3>Why Should You Donate?</h3>
                     </div>
                 </div>
             </div>
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="about_thumb">
-                        <img src="img/about/about.png" alt="">
-                        <div class="served_over">
+                        <img src="img/image1.jpg" alt="">
+                        <!--<div class="served_over">
                             <span>Served Over</span>
                             <h3>356728</h3>
                             <p>people around 50+ countries</p>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
@@ -111,16 +109,16 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
 Donating blood is truly the “gift of life” that a healthy individual can a give to a person in need, in case of sickness or injury.
                             </h3>
                         </div>-->
-                        <p>Inspires employees and organizations to support causes they care <br>
-                            about. We do this to bring more resources to the nonprofits that are <br>
-                            changing our world.<br><br>
-                            Inspires employees and organizations to support causes they care <br>
-                            about. We do this to bring more resources to the nonprofits that are <br>
-                            changing our world.<br><br>
-                            Inspires employees and organizations to support causes they care <br>
-                            about. We do this to bring more resources to the nonprofits that are <br>
-                            changing our world.<br><br>
-                        </p>
+                        <ul>
+                        <li class="dot"><b>Safe blood saves lives:</b> Blood donations are essential for trauma patients and people under a variety of situations including surgeries, transplants, chronic illnesses, blood disorders and cancer.  </li><br>
+                        <li class="dot"><b>Inspires employees and organizations to support causes they care about do this to bring more
+                            resources.</b></li><br>
+                        <li class="dot"><b>It is only an hour of your time:</b> The entire donation process takes approximately one hour, with about 10 minutes of that time being the actual blood donation.</li><br>
+                        <li class="dot"><b>Blood is needed every two seconds.</b></li><br>
+                        <li class="dot"> <b>About one in seven people entering a hospital requires blood.</b></li><br>
+                        <li class="dot"><b>Reduces Iron levels.</b></li><br>
+                        <li class="dot"><b>Identifies adverse health effects:</b> Each person who donates blood completes a simple physical examination and short blood test before donating. As a result, one could identify unknown health concerns as a part of the process.</li><br>
+                        </ul>
 
                         <a href="register.php" class="boxed_btn3">Register Now</a>
                     </div>
@@ -128,7 +126,9 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
             </div>
         </div>
     </div>
-    <!-- about_area_end -->
+</section>
+    <!-- Why Donnate End -->
+
 
     <!-- servce_area_start -->
     <div class="servce_area">
@@ -200,8 +200,16 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
         </div>
     </div>
     <!-- servce_area_end -->
+    
+    <!-- Who Can Donate -->
+    
+    <!-- Who Can Donate End -->
+    
+    <!-- Donated Blood -->
+    
+    <!-- Donated Blood End -->
 
-    <!-- help_area_start -->
+    <!-- Do's And Don'ts -->
     <div class="help_area gray-bg" id="dd">
         <div class="container">
             <div class="row align-items-center">
@@ -244,7 +252,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
             </div>
         </div>
     </div>
-    <!-- help_area_end -->
+    <!-- Do's And Don'ts End -->
 
     <!-- volunteers_area_satrt 
     <div class="volunteers_area">
@@ -337,6 +345,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
     </div>
     <!-- volunteers_area_end -->
 
+<!-- FAQ -->
 <section class="faq" id="faq">
 <div class="container">
 	<div class="row">
@@ -395,6 +404,9 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 	</div>
 </div>
 </section>    
+<!-- FAQ End-->
+<!-- Footer -->
 <?php
 include 'footer.php';
 ?>
+<!-- Footer End -->

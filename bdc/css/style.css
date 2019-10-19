@@ -2212,7 +2212,7 @@ sup,
 sub,
 u,
 del {
-    color: #ff5e13
+    color: black
 }
 
 h1 {
@@ -4795,6 +4795,18 @@ li.ban:before {
     /* same as padding-left set on li */
 }
 
+li.dot:before {
+    content: "\f043";
+    /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    /* same as padding-left set on li */
+    width: 1.3em;
+    /* same as padding-left set on li */
+    color: #A70000;
+}
+
 .navlink {
     font-size: 8px;
 }
@@ -4803,3 +4815,4 @@ li.ban:before {
 {
     height: 70px !important;
 }
+
