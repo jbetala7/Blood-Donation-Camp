@@ -11,7 +11,7 @@ $percentage = ($raised/$target)*100;
 include 'header.php';
 ?>
 <!-- slider_area_start -->
-<div class="slider_area slider_bg_1 d-flex align-items-center">
+<div class="slider_area slider_bg_1 d-flex align-items-center" id="home">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -21,7 +21,7 @@ include 'header.php';
                             Donate Blood</h3>
                         <p>At Charity United we believe that all children in the world have the right to be <br>
                                 cared for and the right to be protected </p>
-                        <a href="#" class="boxed-btn2">Join Us Today</a>
+                        <a href="register.php" class="boxed-btn2">Register Now</a>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,7 @@ include 'header.php';
                 <div class="col-xl-6 col-md-6">
                     <div class="causes_info">
                         <div class="section_title">
-                            <span>Todays Target</span>
+                            <span>BDC 2019 Target</span>
                             <h3>
                                 Help Us Reach The Target
                             </h3>
@@ -202,7 +202,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
     <!-- servce_area_end -->
 
     <!-- help_area_start -->
-    <div class="help_area gray-bg">
+    <div class="help_area gray-bg" id="dd">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xl-12">
@@ -337,7 +337,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
     </div>
     <!-- volunteers_area_end -->
 
-<section class="faq">
+<section class="faq" id="faq">
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">

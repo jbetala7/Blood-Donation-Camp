@@ -4,12 +4,12 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Non profit</title>
+    <title>Blood Donation Camp'19</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon2.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -48,11 +48,11 @@
                             <div class="main-menu  d-none d-lg-block">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a class="navlink" href="index.php">Home</a></li>
+                                        <li><a class="navlink" href="index.php#home">Home</a></li>
                                         <li><a class="navlink" href="index.php#about">Why You Should Donate?</a></li>
-                                        <li><a class="navlink" href="#">Do's & Dont's</a></li>
+                                        <li><a class="navlink" href="index.php#dd">Do's & Dont's</a></li>
                                         <li><a class="navlink" href="#">Who Can Donate?</a></li>
-                                        <li><a class="navlink" href="contact.html">FAQ's</a></li>
+                                        <li><a class="navlink" href="index.php#faq">FAQ's</a></li>
                                     </ul>
                                 </nav>
                             </div>
