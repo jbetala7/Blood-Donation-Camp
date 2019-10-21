@@ -349,7 +349,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
 <section class="faq" id="faq">
 <div class="container">
 	<div class="row">
-		<div class="col-lg-12">
+		<div class="col-xs-6 col-lg-12">
                 <div class="section_title text-center mb-60">
                     <span>Frequently Asked Questions</span>
                     <h3>FAQs</h3>
@@ -370,7 +370,7 @@ In addition to this, what you get in return is a physical and emotional sense of
 				<div class="card">
 					<div class="card-header" id="headingTwo">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> Is there anything special I need to do before donating?</a>
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i>Is there anything special I need to do before donating?</a>
 						</h2>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -382,7 +382,7 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 				<div class="card">
 					<div class="card-header" id="headingThree">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> Does Bootstrap Framework Provide Cross-browser Support?</a>                     
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i>Does the needle hurt the entire time?</a>                     
 						</h2>
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -392,7 +392,7 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 				<div class="card">
 					<div class="card-header" id="headingFour">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> Can I Use Bootstrap for Mobile App Development?</a>                               
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i>Why do you ask such personal questions during the donor selection process?</a>                               
 						</h2>
 					</div>
 					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
