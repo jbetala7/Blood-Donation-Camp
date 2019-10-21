@@ -15,14 +15,7 @@ include 'header.php';
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
-                <div class="single_slider">
-                    <div class="slider_text">
-                        <h3>Be a hero<br>
-                            Donate Blood</h3>
-                        <p>At Charity United we believe that all children in the world have the right to be <br>
-                                cared for and the right to be protected </p>
-                        <a href="register.php" class="boxed-btn2">Register Now</a>
-                    </div>
+                <div id="tew" class="single_slider">
                 </div>
             </div>
         </div>
@@ -403,6 +396,8 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 		</div>
 	</div>
 </div>
+
+
 </section>    
 <!-- FAQ End-->
 <!-- Footer -->
