@@ -4799,8 +4799,15 @@ h6 {
 
 .banner {
     width: 100%;
-    height: 15vh;
+    height: 14vh;
     background-color: #450000;
+}
+
+@media(max-width: 768px)
+{
+    .banner{
+        height: 11vh;
+    }
 }
 
 .faq {

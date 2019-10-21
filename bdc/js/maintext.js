@@ -22,23 +22,23 @@ if($(window).width() > "768"){
 
 
     class Particle{
-    constructor(canvas, options){
-        let random = Math.random()
-        this.canvas = canvas;
-        this.x = options.x
-        this.y = options.y
-        this.s = (3 + Math.random());
-        this.a = 0
-        this.w = $(window).width()
-        this.h = $(window).height()
-        this.radius = 0.5 + Math.random()*20
-        this.color  = this.radius > 5 ? "#FF5E4C" : "#ED413C" //this.randomColor()
-    }
-
-    randomColor() {
-        let colors = ["#FF5E4C", "#FFFFFF"];
-        return colors[this.randomIntFromInterval(0,colors.length-1)];
-    }
+        constructor(canvas, options){
+            let random = Math.random()
+            this.canvas = canvas;
+            this.x = options.x
+            this.y = options.y
+            this.s = (3 + Math.random());
+            this.a = 0
+            this.w = $(window).width()
+            this.h = $(window).height()
+            this.radius = 0.5 + Math.random()*20
+            this.color  = this.radius > 5 ? "#FFFFFF" : this.randomColor()
+        }
+    
+        randomColor() {
+            let colors = ["#FFFFFF", "#FFFFFF"];
+            return colors[this.randomIntFromInterval(0,colors.length-1)];
+        }
 
     randomIntFromInterval(min,max){
         return Math.floor(Math.random()*(max-min+1)+min);
