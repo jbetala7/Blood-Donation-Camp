@@ -4825,6 +4825,12 @@ li.dot:before {
     li.dot:before{
         display: none;
     }
+    .faq a{
+        font-size: 13px;
+    }
+    .big{
+        display: none;
+    }
 }
 
 .navlink {

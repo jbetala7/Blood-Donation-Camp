@@ -389,7 +389,7 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 						<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card big">
 					<div class="card-header" id="headingFour">
 						<h2 class="mb-0">
 							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i>Why do you ask such personal questions during the donor selection process?</a>                               
