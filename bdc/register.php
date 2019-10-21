@@ -1,9 +1,11 @@
 <?php
 include 'header.php';
 include 'dbc.php';
+include 'functions.php';
+$valid =1;
 if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
-        if(isset ($_POST['email']))
+        if(isset ($_POST['bloodgroup']) && isset($_POST['year']))
         {
 			$name = $_POST['name'];
 			$name = ucwords($name);
@@ -16,13 +18,19 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $query = mysqli_query($conn ,$sql);
             if($query)
             {
-				//sendmail($email, $name);
+                //sendmail($email, $name);
+                success();
             }
             else
             {
+                error();
                 echo mysqli_error($conn);
             }
 
+        }
+        else
+        {
+            $valid =0;
         }
     }
 ?>
@@ -45,7 +53,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <select name="bloodgroup" class="form-control">
+                                    <select name="bloodgroup" class="form-control" required>
                                     <option disabled selected>Blood Group</option>  
                                     <option class="form-control" value="A+">A+</option>
                                     <option class="form-control" value="B+">B+</option>
@@ -53,17 +61,25 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                                     <option class="form-control" value="AB+">AB+</option>
                                     <option class="form-control" value="AB-">AB-</option>
                                     </select>
+                                    <?php if($valid == 0)
+						            {
+							            echo "<p style='color:red; font-weight:700; font-size:12px;' class='p-t-10'>Please Select Blood Group</p>";
+						            }?>
                                 </div>
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <select name="year" class="form-control">
+                                    <select name="year" class="form-control" required>
                                     <option disabled selected>Year</option>    
                                     <option class="form-control" value="1st Year">1st Year</option>
                                     <option class="form-control" value="2nd Year">2nd Year</option>
                                     <option class="form-control" value="3rd Year">3rd Year</option>
                                     <option class="form-control" value="4th Year">4th Year</option>
                                     </select>
+                                    <?php if($valid == 99)
+						            {
+							            echo "<p style='color:red; font-weight:700; font-size:12px;' class='p-t-10'>Please Select Year</p>";
+						            }?>
                                 </div>
                             </div>
                             <div class="col-lg-12">
