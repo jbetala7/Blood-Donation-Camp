@@ -84,11 +84,11 @@ if($(window).width() > "768"){
 
     // if($(window).width() > "768"){
         function writeText(canvas, context, text){
-        let size = 100
+        let size = 110
         context.font = size + "px Montserrat";
         context.fillStyle = "#111111";
         context.textAlign = "center";
-        let lineheight = 100
+        let lineheight = 110
         let lines = text.split('\n');
         for(let i = 0; i<lines.length; i++){
             context.fillText(lines[i], canvas.width/2, canvas.height/2 + lineheight*i - (lineheight*(lines.length-1))/3);
