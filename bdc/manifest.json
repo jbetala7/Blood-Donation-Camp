@@ -1,0 +1,23 @@
+{
+    "name": "Blood Donation Camp '19",
+    "short_name": "BDC '19",
+    "icons": [
+      {
+        "src": "img/favicon2.png",
+        "type": "image/png",
+        "sizes": "440x440"
+      },
+      {
+        "src": "img/favicon2.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "index.php",
+    "background_color": "black",
+    "display": "standalone",
+    "theme_color": "black",
+    "orientation": "portrait",
+    "prefer_related_applications": true
+  } 
+  

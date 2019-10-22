@@ -106,16 +106,34 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/maintext.js"></script>
+    <script src="js/app.js"></script>
     <script id="rendered-js" src="js/particle.js"></script>
 
         <!-- <script id="rendered-js"> -->
         <!--contact js-->
+
+
+    <!-- Service Worker -->
+		<script>
+            if ('serviceWorker' in navigator) {
+                  window.addEventListener('load', function() {
+                navigator.serviceWorker.register('sw.js').then(function(registration) {
+                  // Registration was successful
+                  console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, function(err) {
+                  // registration failed :(
+                  console.log('ServiceWorker registration failed: ', err);
+                    });
+              });
+            }
+        </script>
     <script src="js/contact.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/droptext.js"></script>
     <script>
         function validate(evt) {
   var theEvent = evt || window.event;

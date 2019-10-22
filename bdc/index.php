@@ -24,51 +24,7 @@ include 'header.php';
     <!-- slider_area_end -->
 
     <!-- causes_area_start -->
-    <div class="causes_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-xl-6 col-md-6">
-                    <div class="causes_info">
-                        <div class="section_title">
-                            <span>BDC 2019 Target</span>
-                            <h3>
-                                Help Us Reach The Target
-                            </h3>
-                        </div>
-                        <div class="target_rais_area d-flex">
-                            <div class="single_raise">
-                                <span>target :</span>
-                                <h4><?php echo $target.' Units'?></h4>
-                            </div>
-                            <div class="single_raise">
-                                <span>raised :</span>
-                                <h4><?php echo $raised.' Units'?></h4>
-                            </div>
-                            <div class="doante_btn">
-                                <a href="#" class="boxed_btn3">Register Now</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 col-md-6">
-                    <div class="causes_thumb">
-                        <img class="img-fluid" src="img/banner2.jpg" alt="">
-                        <div class="custom_progress_bar">
-                            <div class="progress">
-                                <div class="progress-bar wow slideInLeft" role="progressbar" aria-valuenow="60"
-                                    aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $percentage.'%'?>">
-                                    <div class="value_progress">
-                                        <span><?php echo $percentage?>%</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- causes_area_end -->
+   
 
     <!-- Why Donate -->
 <section class='Why_Donate'>
@@ -78,7 +34,12 @@ include 'header.php';
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-60">
                         <span>Save a Life</span>
-                        <h3>Why Should You Donate?</h3>
+                        <h3 id="phtxt">Why you should Donate?</h3>
+                        <div class="wrap">
+                            <div class="content">
+                        <div class="drift">Why you should Donate?</div>
+                        </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -124,7 +85,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
 
 
     <!-- servce_area_start -->
-    <div class="servce_area">
+    <div class="servce_area" id="who">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -398,7 +359,62 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 </div>
 
 
-</section>    
+</section> 
+<br>
+<br>
+<div class="wrapperabt">
+    <div class="contentabt">
+            <div class="causes_area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-xl-6 col-md-6">
+                            <div class="causes_info">
+                                <div class="section_title">
+                                    <span>BDC 2019 Target</span>
+                                    <h3>
+                                        Help Us Reach The Target
+                                    </h3>
+                                </div>
+                                <div class="target_rais_area d-flex">
+                                    <div class="single_raise">
+                                        <span>target :</span>
+                                        <h4><?php echo $target.' Units'?></h4>
+                                    </div>
+                                    <div class="single_raise">
+                                        <span>raised :</span>
+                                        <h4><?php echo $raised.' Units'?></h4>
+                                    </div>
+                                    <div class="doante_btn">
+                                        <a href="#" class="boxed_btn3">Register Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-6">
+                            <div class="causes_thumb">
+                                <img class="img-fluid" src="img/banner2.jpg" alt="">
+                                <div class="custom_progress_bar">
+                                    <div class="progress">
+                                        <div class="progress-bar wow slideInLeft" role="progressbar" aria-valuenow="60"
+                                            aria-valuemin="0" aria-valuemax="100" style="width:<?php echo $percentage.'%'?>">
+                                            <div class="value_progress">
+                                                <span><?php echo $percentage?>%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="bgabt">
+        <!-- <img src="img/bg2.jpg"> -->
+    </div>
+</div>
+
+<!-- causes_area_end -->   
 <!-- FAQ End-->
 <!-- Footer -->
 <?php
