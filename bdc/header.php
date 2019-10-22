@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/text.css">
+    <!-- <link rel="stylesheet" href="css/text.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/partbg.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
