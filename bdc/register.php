@@ -18,13 +18,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $query = mysqli_query($conn ,$sql);
             if($query)
             {
-                //sendmail($email, $name);
+                sendmail($email, $name);
                 success();
             }
             else
             {
                 error();
-                echo mysqli_error($conn);
+                //echo mysqli_error($conn);
             }
 
         }
