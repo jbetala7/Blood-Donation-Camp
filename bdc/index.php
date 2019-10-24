@@ -72,6 +72,11 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <li class="dot"> <b>About one in seven people entering a hospital requires blood.</b></li><br>
                         <li class="dot"><b>Reduces Iron levels.</b></li><br>
                         <li class="dot"><b>Identifies adverse health effects:</b> Each person who donates blood completes a simple physical examination and short blood test before donating. As a result, one could identify unknown health concerns as a part of the process.</li><br>
+                        <li class="dot"><b>White dots:</b> Got into trouble? No worries! Redeem your black dot by donating blood and get it removed.</li><br>
+                        <li class="dot"><b>Donor Card: </b> On successfully donating blood, you receive a donor card. In the possible event of an urgent need of blood in the future, this card will come in handy.</li><br>
+                        <li class="dot"><b>Coupons: </b> Discount coupons for various outlets on campus are provided to the donors.</li><br>
+                        <li class="dot"><b>Attendance:</b> </li><br>
+                        <li class="dot"><b>Gift:</b> A token of thanks for your bravery, effort and contribution.</li><br>
                         </ul>
 
                         <a href="register.php" class="boxed_btn3">Register Now</a>
@@ -92,7 +97,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                     <div class="section_title text-center mb-60">
                         <span>We Work For</span>
                         <h3>
-                            Additional Benefits
+                            Who Can Donate?
                         </h3>
                     </div>
                 </div>
@@ -103,9 +108,8 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <div class="serve_icon">
                             <i class="flaticon-meat"></i>
                         </div>
-                        <h3>White Dot</h3>
-                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
-                            more resources to the nonprofits that are </p>
+                        <h3>Age</h3>
+                        <p>You are aged between 18 and 65. </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -113,9 +117,8 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <div class="serve_icon">
                             <i class="flaticon-open-magazine"></i>
                         </div>
-                        <h3>Donor Card</h3>
-                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
-                            more resources to the nonprofits that are </p>
+                        <h3>Weight</h3>
+                        <p>You weigh at least 50 kgs. </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
@@ -123,9 +126,37 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <div class="serve_icon">
                             <i class="flaticon-open-magazine"></i>
                         </div>
-                        <h3>Coupons</h3>
-                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
-                            more resources to the nonprofits that are </p>
+                        <h3>Health</h3>
+                        <p>You must be in good health at the time you donate. </p>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-meat"></i>
+                        </div>
+                        <h3></h3>
+                        <p>You cannot donate if you have a cold, flu, sore throat, cold sore, stomach bug or any other infection.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-open-magazine"></i>
+                        </div>
+                        <h3></h3>
+                        <p>If you have recently had a tattoo or body piercing, you cannot donate for 6 months from the date of the procedure.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-open-magazine"></i>
+                        </div>
+                        <h3></h3>
+                        <p>If the body piercing was performed by a registered health professional and any inflammation has settled completely, you can donate blood after 12 hours. </p>
                     </div>
                 </div>
             </div><br><br>
@@ -135,21 +166,18 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <div class="serve_icon">
                             <i class="flaticon-meat"></i>
                         </div>
-                        <h3>Attendence</h3>
-                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
-                            more resources to the nonprofits that are </p>
+                        <h3></h3>
+                        <p>If you have visited the dentist for a minor procedure, you must wait 24 hours before donating; for major work, wait a month.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-4">
                     <div class="single_serve text-center">
                         <div class="serve_icon">
-                            <i class="flaticon-medicine"></i>
+                            <i class="flaticon-open-magazine"></i>
                         </div>
-                        <h3>Gifts</h3>
-                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
-                            more resources to the nonprofits that are </p>
+                        <h3></h3>
+                        <p>You must not donate blood if you do not meet the minimum haemoglobin n level for blood donation.</p>
                     </div>
-                </div>
             </div>
         </div>
     </div>
@@ -184,6 +212,9 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <li class="check">Eat iron-rich foods starting a week or two before you donate. These include red meat, eggs whole grains, and dark green vegetables like spinach. Get additional vitamin C to help iron absorption.</li><br>
                         <li class="check">Eat a healthy, low-fat meal four or more hours before you donate.</li><br>
                         <li class="check">Take plenty of fluids, not only on the day of your donation, but also on the day before and the day after. This will keep you from getting dehydrated.</li><br>
+                        <li class="check">Be healthy on the donation date. If you suffer any flu or cold symptoms, reschedule.</li><br>
+                        <li class="check">Be sure to rest and have a snack right after your donation. These are usually provided at the donation centre to help ensure you don’t become lightheaded or faint afterwards.</li><br>
+                        <li class="check">Rest for the remainder of the day so your body can recuperate.</li><br>
                         </ul>
                     </div>
                 </div>
@@ -193,12 +224,18 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                             <span>Don'ts</span>
                         </div>
                         <ul>
-                        <li class="ban">Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</li><br>
-                        <li class="ban">Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</li><br>
-                        <li class="ban">Inspires employees and organizations to support causes they care about do this to bring more
-                            resources.</li><br>
+                        <li class="ban">Rush through the cookies and juice provided after your donation. Gulping them down or skipping them altogether may result in fainting or injury.</li><br>
+                        <li class="ban">Donate blood if you are feeling ill, or not in perfect health.</li><br>
+                        <li class="ban">Donate on an empty stomach. Don’t eat right before donation either, as this can lead to an upset stomach.</li><br>
+                        <li class="ban">Consume caffeine before donation. Caffeinated drinks can act as diuretics, causing the body to get rid of water. You need to be well-hydrated before donating.</li><br>
+                        <li class="ban">Smoke right before or after your donation. The nicotine could make you too light-headed.  Wait an hour or more after donating. Better yet, don’t smoke at all! </li><br>
+                        <li class="ban">Exercise any time in the 24 hours after your donation.</li><br>
+                        <li class="ban">Donate if you have an infection for which you are currently taking antibiotics.</li><br>
+                        <li class="ban">Donate if you are at high risk for hepatitis or HIV.</li><br>
+                        <li class="ban">Consume fatty foods within the 24 hours before donating. A blood screening may declare your blood unfit and your donation will be wasted.</li><br>
+                        <li class="ban">Donate if you’ve had a body piercing or tattoo done within the last 12 months.</li><br>
+                        <li class="ban">Donate if you’re under 17 or weigh less than 110 pounds/50kgs.</li><br>
+                        <li class="ban">Consider driving yourself home after donation. You could faint or fall asleep while driving despite the juice and cookies. Consider having a friend do the driving—one who doesn’t donate on the same day.</li><br>
                         </ul>
                     </div>
                 </div>
@@ -324,7 +361,7 @@ In addition to this, what you get in return is a physical and emotional sense of
 				<div class="card">
 					<div class="card-header" id="headingTwo">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i>Is there anything special I need to do before donating?</a>
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><i class="fa fa-chevron-circle-down"></i> Is there anything special I need to do before donating?</a>
 						</h2>
 					</div>
 					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -336,23 +373,95 @@ Avoid taking aspirin or aspirin-like anti-inflammatory medication in the 72 hour
 				<div class="card">
 					<div class="card-header" id="headingThree">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i>Does the needle hurt the entire time?</a>                     
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><i class="fa fa-chevron-circle-down"></i> Does the needle hurt the entire time?</a>                     
 						</h2>
 					</div>
 					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-						<div class="card-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagittis. In tincidunt orci sit amet elementum vestibulum.</div>
+						<div class="card-body">No. There may be a little sting when the needle is inserted, but there should be no pain whatsoever during the rest of the donation.</div>
 					</div>
 				</div>
-				<div class="card big">
+				<div class="card">
 					<div class="card-header" id="headingFour">
 						<h2 class="mb-0">
-							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i>Why do you ask such personal questions during the donor selection process?</a>                               
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour"><i class="fa fa-chevron-circle-down"></i> How long does a blood donation take?</a>                               
 						</h2>
 					</div>
 					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-						<div class="card-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et.</div>
+						<div class="card-body">The entire process takes about one hour and 15 minutes; the actual donation of a pint of whole blood unit takes eight to ten minutes. However, the time varies slightly with each person, depending on several factors including the donor’s health history and attendance at the blood drive.</div>
 					</div>
-				</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingFive">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive"><i class="fa fa-chevron-circle-down"></i> How long will it take to replenish the pint of blood I donate?</a>                     
+						</h2>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+						<div class="card-body">The plasma from your donation is replaced within about 24 hours. Red cells need about four to six weeks for complete replacement. That is why at least eight weeks are required between whole blood donations.</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingSix">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"><i class="fa fa-chevron-circle-down"></i> Can I donate during my menstrual period?</a>                     
+						</h2>
+					</div>
+					<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+						<div class="card-body">Yes, if you are feeling well. Menstruating does not affect your ability to donate. If your fluid levels aren't low, (i.e. you are dehydrated, as it can reduce your blood volume), there is no problem. Enjoy a relaxing time on the donation bed and a guilt-free snack afterwards!</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingSeven">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"><i class="fa fa-chevron-circle-down"></i> How soon after donating can I participate in a sport?</a>                     
+						</h2>
+					</div>
+					<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+						<div class="card-body">After donation, it's best to have a snack and drink plenty of fluids over the next four hours. You can then resume routine sporting or training activity. It is advisable not to donate blood three to four weeks before participating in a major sporting event such as a marathon, or a competitive rugby or football match, where you intend to push yourself to the limits of your capacity.
+In the unlikely event that you do feel faint, light-headed or unwell during any sporting activities, you should immediately stop and rest. Many active sports people are regular blood donors.
+</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingEight">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight"><i class="fa fa-chevron-circle-down"></i> What is a “unit” of blood?</a>                     
+						</h2>
+					</div>
+					<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+						<div class="card-body">A unit is about 450 ml of donated blood. The average adult has between four and five litres of blood in his or her body and can easily spare one unit.</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingNine">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine"><i class="fa fa-chevron-circle-down"></i> Is it possible to get HIV/AIDS from donating blood?</a>                     
+						</h2>
+					</div>
+					<div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+						<div class="card-body">No. You cannot get AIDS or any other infectious disease by giving blood. The materials used for your blood donation, including the needle, blood collection bag, tubes and finger prick needle are new, sterile and disposable. These are used only once for your blood donation and then destroyed after use.</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingTen">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen"><i class="fa fa-chevron-circle-down"></i> Why do you ask such personal questions during the donor selection process?</a>                     
+						</h2>
+					</div>
+					<div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+						<div class="card-body">A major component of the screening process is designed to identify people who are at a greater risk of transmitting blood-borne infections. In order to safeguard the blood supply, it is imperative that these people do not give blood. All donor selection measures must meet stringent regulatory requirements. While the process is slightly lengthy and may seem a bit intrusive, it is necessary to safeguard the blood supply.</div>
+					</div>
+                </div>
+                <div class="card">
+					<div class="card-header" id="headingEleven">
+						<h2 class="mb-0">
+							<a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"><i class="fa fa-chevron-circle-down"></i> I have a question which is not answered here.</a>                     
+						</h2>
+					</div>
+					<div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+						<div class="card-body">Contact: </div>
+					</div>
+                </div>
 			</div>
 		</div>
 	</div>
