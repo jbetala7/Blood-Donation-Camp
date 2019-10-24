@@ -51,7 +51,7 @@
                                 <nav>
                                     <ul id="navigation">
                                         <li><a class="navlink" href="index.php#home">Home</a></li>
-                                        <li><a class="navlink" href="index.php#about">Why You Should Donate?</a></li>
+                                        <li><a class="navlink" href="index.php#abt">Why You Should Donate?</a></li>
                                         <li><a class="navlink" href="index.php#who">Who Can Donate?</a></li>
                                         <li><a class="navlink" href="index.php#dd">Do's & Dont's</a></li>
                                         <li><a class="navlink" href="index.php#faq">FAQ's</a></li>

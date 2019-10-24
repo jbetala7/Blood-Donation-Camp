@@ -74,7 +74,7 @@ let max_particles = 1000;
         
         function clear() {
           canvas.globalAlpha = 0.05;
-          canvas.fillStyle = 'black';
+          canvas.fillStyle = 'transparent';
           canvas.fillRect(0, 0, tela.width, tela.height);
           canvas.globalAlpha = 1;
         }

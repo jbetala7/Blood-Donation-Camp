@@ -27,7 +27,7 @@ include 'header.php';
    
 
     <!-- Why Donate -->
-<section class='Why_Donate'>
+<section class='Why_Donate' id="abt">
     <div class="about_area gray-bg" id="about">
         <div class="container">
         <div class="row">
@@ -204,7 +204,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                     </div>
                 </div>
                 <div class="col-xl-5">
-                    <div class="help_info1">
+                    <div class="help_info" id="left">
                         <div class="section_title">
                             <span>Do's</span>
                         </div>

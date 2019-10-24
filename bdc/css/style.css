@@ -898,7 +898,7 @@ h3 {
 .slider_area::before {
     position: absolute;
     content: "";
-    background: black;
+    background: rgb(66, 22, 22);
     width: 100%;
     height: 100%;
     left: 0;
@@ -911,7 +911,7 @@ h3 {
     content: "";
     background: #FFF5F5;
     width: 100%;
-    height: 113px;
+    /* height: 113px; */
     left: 0;
     bottom: -60px;
     -webkit-transform: skewY(3deg);
@@ -998,7 +998,7 @@ h3 {
     padding-top:115px;
     padding-bottom: 115px;
     position: absolute;
-    width:100vw;
+    width:98.5vw;
     height: 100vh;
     top:0;
     left: 0;
@@ -1006,6 +1006,7 @@ h3 {
 }
 
 .contentabt{
+    /* height:100vh; */
     position: relative;
     background-color: rgba(255, 245, 245, 0.801);
     z-index: 40;
@@ -1017,6 +1018,7 @@ h3 {
 
 .causes_area {
     padding-top:115px;
+    height:100vh;
     /* background-image: url("../img/bg2.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
@@ -1237,7 +1239,7 @@ h3 {
 }
 
 .about_area {
-    padding: 65px 0
+    padding: 120px;
 }
 
 @media (max-width: 767px) {
@@ -1384,7 +1386,8 @@ h3 {
 
 .servce_area {
     padding-top: 120px;
-    padding-bottom: 113px
+    padding-bottom: 113px;
+    height: 200vh;
 }
 
 .servce_area.servce_area2 {
@@ -1508,7 +1511,11 @@ h3 {
         margin-bottom: 30px
     }
 }
-
+@media (min-width:1200px){    
+#left{
+    margin-top:-410px !important;
+}
+}
 .help_area .help_info p {
     margin-bottom: 34px;
     margin-top: 20px
