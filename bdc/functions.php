@@ -74,10 +74,6 @@ try {
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Registration Successfull';
-<<<<<<< Updated upstream
-    $mail->Body    = '<h1><b> Dear future donor, </b></h1> <br><br> Before pursuing the motive of this mail, the BDC team would like to thank you for having gotten through the first step of donation – registration!!!!<br><br>We are glad and equally grateful to see you as among those few who care.  That is precisely why we are hopeful to see you actually make it to the venue (old mess), on the 14th of November between 9am and 6pm. This is one task that does not finish at merely getting listed. It is not only at one but numerous instances that the heroism in your veins be needed to flow in another’s; it is not only once but many a times that your one simple action of contributing a pint be thanked.<br><br>So, making the purpose of this mail clearer, we would like to invite you to really
-    <br>"Karke dekho acha lagega"<br><br>Prepping you for it, we advise you to stay hydrated, well fed, smoke free, alcohol free, parasitic virus and bacteria free, and of course your admirable, fabulous self. Apart from this, kindly look out for further instructions and details, also available on the website, one text/ call away on given contact numbers, or almost every second person’s story on media, phew! We are spamming e.v.e.r.y.w.h.e.r.e.<br><br>Looking forward to see you!❤<br><br><b>Team BDC.</b>;
-=======
     $mail->Body    = "
     <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional //EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
     <html xmlns='http://www.w3.org/1999/xhtml' xmlns:v='urn:schemas-microsoft-com:vml' xmlns:o='urn:schemas-microsoft-com:office:office'>
@@ -460,7 +456,6 @@ try {
     </body>
     
     </html>";
->>>>>>> Stashed changes
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();

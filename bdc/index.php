@@ -161,7 +161,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                 </div>
             </div><br><br>
             <div class="row">
-                <div class="offset-xl-2 col-xl-4 col-md-4">
+                <div class="col-xl-4 col-md-4">
                     <div class="single_serve text-center">
                         <div class="serve_icon">
                             <i class="flaticon-meat"></i>
@@ -178,9 +178,27 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                         <h3></h3>
                         <p>You must not donate blood if you do not meet the minimum haemoglobin n level for blood donation.</p>
                     </div>
-            </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-open-magazine"></i>
+                        </div>
+                        <h3>Pregnancy and breastfeeding</h3>
+                        <p>Following pregnancy, the deferral period should last as many months as the duration of the pregnancy.</p>
+                    </div>
+                </div><br><br>
+                <div class="offset-xl-2 col-xl-8 col-md-8">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-open-magazine"></i>
+                        </div>
+                        <h3>Behaviours</h3>
+                        <p>You must not give blood: <br> If you engaged in any “at risk sexual activity in the past 12 months.<br> Individuals with behaviours below will be deferred permanently:  <br>1. Have ever had a positive test for HIV (AIDS virus). <br>2. Have ever injected recreational drugs.</p>
+                    </div>
+                </div><br><br>
+             </div>
         </div>
-    </div>
     <!-- servce_area_end -->
     
     <!-- Who Can Donate -->
