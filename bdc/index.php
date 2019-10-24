@@ -46,7 +46,7 @@ include 'header.php';
             <div class="row align-items-center">
                 <div class="col-xl-6 col-md-6">
                     <div class="about_thumb">
-                        <img src="img/image1.jpg" alt="">
+                        <img src="img/image1.png" alt="">
                         <!--<div class="served_over">
                             <span>Served Over</span>
                             <h3>356728</h3>
@@ -204,7 +204,7 @@ Donating blood is truly the “gift of life” that a healthy individual can a g
                     </div>
                 </div>
                 <div class="col-xl-5">
-                    <div class="help_info">
+                    <div class="help_info1">
                         <div class="section_title">
                             <span>Do's</span>
                         </div>
