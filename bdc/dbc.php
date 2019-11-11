@@ -1,4 +1,8 @@
 <?php
+//$username = 'globalautomotive_bdc';
+//$pass = 'liNb*w?bds.j';
+//$dbname = 'globalautomotive_bdc';
+//$servername = 'localhost';
 $username = 'root';
 $pass = '';
 $dbname = 'bdc';

@@ -2,8 +2,8 @@
 
 svg {
 
-    font: 5.5em 'Nunito';
-    width: auto;
+    font: 1.5em 'Nunito';
+    width: 35px;
     height: auto;
 }
 
@@ -18,7 +18,7 @@ svg {
 }
 
 .text-copy:nth-child(1){
-	stroke: white;
+	stroke: rwhiteed;
 	animation-delay: .3s;
 }
 

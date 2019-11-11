@@ -5,7 +5,7 @@ include 'functions.php';
 $valid =1;
 if($_SERVER['REQUEST_METHOD'] == 'POST')
     {
-        if(isset ($_POST['bloodgroup']) && isset($_POST['year']))
+        if(isset ($_POST['bloodgroup']))
         {
 			$name = $_POST['name'];
 			$name = ucwords($name);
@@ -13,8 +13,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 			$phone =$_POST['tel'];
             $rno = $_POST['rno'];
             $bloodgroup = $_POST['bloodgroup'];
-            $year = $_POST['year'];
-            $sql = "INSERT INTO user_info VALUES('$name', '$email', '$rno','$phone','$bloodgroup','$year');";
+            $age = $_POST['age'];
+            $sql = "INSERT INTO user_info VALUES('$name', '$email', '$rno','$phone','$bloodgroup','$age');";
             $query = mysqli_query($conn ,$sql);
             if($query)
             {
@@ -58,6 +58,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                                     <option class="form-control" value="A+">A+</option>
                                     <option class="form-control" value="B+">B+</option>
                                     <option class="form-control" value="O+">O+</option>
+                                    <option class="form-control" value="O-">O-</option>
                                     <option class="form-control" value="AB+">AB+</option>
                                     <option class="form-control" value="AB-">AB-</option>
                                     </select>
@@ -69,17 +70,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                             </div>
                             <div class="col-lg-12">
                                 <div class="form-group">
-                                    <select name="year" class="form-control" required>
-                                    <option disabled selected>Year</option>    
-                                    <option class="form-control" value="1st Year">1st Year</option>
-                                    <option class="form-control" value="2nd Year">2nd Year</option>
-                                    <option class="form-control" value="3rd Year">3rd Year</option>
-                                    <option class="form-control" value="4th Year">4th Year</option>
-                                    </select>
-                                    <?php if($valid == 99)
-						            {
-							            echo "<p style='color:red; font-weight:700; font-size:12px;' class='p-t-10'>Please Select Year</p>";
-						            }?>
+                                    <input class="form-control valid" name="age" id="age" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your age'" placeholder="Age" required pattern="[0-9]{2}" >
                                 </div>
                             </div>
                             <div class="col-lg-12">
@@ -89,12 +80,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input onkeypress='validate(event)' class="form-control" name="rno" id="rno" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Registraion Number'" placeholder="Enter Registraion Number" required pattern="[0-9]{9}" title="Please Enter Valid Registration Number">
+                                    <input onkeypress='validate(event)' class="form-control" name="rno" id="rno" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Registraion Number'" placeholder="Registraion Number (Type 00 for Faculty/Staff)" required  title="Please Enter Valid Registration Number">
                                 </div>
                             </div>
                             <div class="col-sm-6">
                                 <div class="form-group">
-                                    <input onkeypress='validate(event)' class="form-control" name="tel" id="tel" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Phone Number'" placeholder="Enter Phone Number" required pattern="[0-9]{10}" title="Please Enter Valid Phone Number">
+                                    <input onkeypress='validate(event)' class="form-control" name="tel" id="tel" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Phone Number'" placeholder="Phone Number" required pattern="[0-9]{10}" title="Please Enter Valid Phone Number">
                                 </div>
                             </div>
                         </div>

@@ -52,12 +52,14 @@ try {
     //Server settings
     //$mail->SMTPDebug = 4;                                       // Enable verbose debug output
     $mail->isSMTP();                                            // Set mailer to use SMTP
-    $mail->Host       = 'smtpout.secureserver.net';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'webmaster@bdcmuj.in';                     // SMTP username
-    $mail->Password   = 'Webmaster@312';                               // SMTP password
-    $mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
-    $mail->Port       = 465;                                    // TCP port to connect to
+    $mail->Host = 'localhost';
+    //$mail->Host       = 'relay-hosting.secureserver.net';  // Specify main and backup SMTP servers
+    $mail->SMTPAuth   = false;                                   // Enable SMTP authentication
+    //$mail->Username   = 'webmaster@bdcmuj.in';                     // SMTP username
+    //$mail->Password   = 'Webmaster@312';                               // SMTP password
+    $mail->SMTPAutoTLS = false;
+    //$mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
+    $mail->Port       = 25;                                    // TCP port to connect to
 
     //Recipients
     $mail->setFrom('webmaster@bdcmuj.in', 'BCDMUJ19');
@@ -459,9 +461,11 @@ try {
     //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     $mail->send();
-    echo 'Successfully Registered';
+    //echo 'Successfully Registered';
+    // success();
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    //echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    // error();
 }
 }
 ?>
