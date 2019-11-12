@@ -22,6 +22,29 @@ include 'header.php';
 <!-- partial -->
 </section>
 
+
+<section class="about-area121">
+    <div id="vidcont"> 	
+    <!-- <div class="home-theme_content1 inline-photo show-on-scroll" id = "entry"> -->
+        <div class="home-theme_content inline-photo show-on-scroll" id="her">
+            <h1 class="home-theme_2">Be A Hero<h1>
+            <p class="home-theme_para1">
+                If one thing we’ve learnt, it is that superheroes are not born only out of mutations, science projects gone wrong, sheer superhuman genius, neither do they have to travel light years from other planets, nor are they confined to the pages of comic books. 
+                Heroes walk among us, and heroes are within us. 
+                
+                We believe in the superpower that one action holds to turn a situations upside down, to be a boon, and to save a life. 
+                
+                Exhibiting this notion annually during the Blood Donation Camp, we encourage all to take a moment to realise and bring out the heroes in them and donate! 
+            </p>
+        </div>
+        <div class="videobackground">
+                <video id="vid" data-keepplaying autoplay loop muted width="100vw" preload="auto">
+                        <source src="vid/videobg.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+        </div>
+    </div>
+</section>
 <!-- causes_area_start -->
     <!--<div class="causes_area">-->
     <!--    <div class="container">-->

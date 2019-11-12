@@ -1,12 +1,12 @@
 <?php
-$username = 'globalautomotive_bdc';
-$pass = 'liNb*w?bds.j';
-$dbname = 'globalautomotive_bdc';
+// $username = 'globalautomotive_bdc';
+// $pass = 'liNb*w?bds.j';
+// $dbname = 'globalautomotive_bdc';
+// $servername = 'localhost';
+$username = 'root';
+$pass = '';
+$dbname = 'bdc';
 $servername = 'localhost';
-//$username = 'root';
-//$pass = '';
-//$dbname = 'bdc';
-//$servername = 'localhost';
 $conn = mysqli_connect($servername,$username,$pass,$dbname);
 if(!$conn)
 {
