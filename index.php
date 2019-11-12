@@ -119,7 +119,7 @@ include 'header.php';
                             Rotaract is an international body started in the year 1968, evolving into a network of 10,904 clubs, 2,50,792 members across 184 countries. One of these bodies is our club active in the Manipal University, Jaipur. Among the exposure in the fields of quality academics, culture, and off book education, we are also provided with an environment to grow as individuals; individuals who are aware of the drastic changes in the global society and are willing to actually take a course of action that aids even at the slightest. 
                             With the coordination among many committees and working bodies we try and pull off whatever endeavours we undertake independently, and in collaboration with various NGOs and other clubs and government schemes.
                             The crux of our working and functioning is a start with an idea, welcoming of all, ending on a successful note of action.</p>
-                        <!--<a href="about.php" class="boxed_btn3">Learn More</a>-->
+                        <a href="about.php" class="boxed_btn3">Learn More</a>
                     </div>
                 </div>
             </div>
