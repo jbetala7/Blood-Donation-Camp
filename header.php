@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<head>
-    <meta charset="utf-8">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Blood Donation Camp'19</title>
     <meta name="description" content="">
@@ -11,7 +11,12 @@
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon2.png">
     <!-- Place favicon.ico in the root directory -->
-
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-title content="BDCMUJ '19">
+    <link rel=apple-touch-startup-image href=img/favicon2.png>
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link rel=apple-touch-icon href=img/pwal.png>
     <!-- CSS here -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">

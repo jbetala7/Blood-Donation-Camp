@@ -482,7 +482,7 @@ In the unlikely event that you do feel faint, light-headed or unwell during any 
 						</h2>
 					</div>
 					<div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
-						<div class="card-body">Contact- Kabir Kakkar: +91 9811120224</div>
+						<div class="card-body">Contact- Raghav: +91 9772106364</div>
 					</div>
                 </div>
 			</div>
